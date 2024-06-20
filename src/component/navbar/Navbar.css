@@ -1,0 +1,24 @@
+.max-contain{
+    background-color: black;
+    
+}
+.mini-contain{
+    display: flex;
+    justify-content: space-between;
+}.mini-contain ul{
+    /* list-style: none; */
+    display: flex;
+    justify-content: space-evenly;  
+    width: 800px; 
+    margin-top: 30px;  
+    
+     
+}
+.mini-contain a{
+    text-decoration: none;
+    color: white;
+    
+}
+.mini-contain h2{
+    margin-left: 70px;
+}
