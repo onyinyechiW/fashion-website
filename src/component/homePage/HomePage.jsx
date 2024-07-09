@@ -8,7 +8,6 @@ const HomePage = () =>{
         <>
         <Navbar/>
         <Hero/>
-        
         <SecondStep/>
         <ThirdStep/>
         <FourthStep/>       

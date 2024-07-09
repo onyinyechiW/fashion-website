@@ -9,9 +9,9 @@ const Navbar = () =>{
                 </div>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/about">About Me</a></li>
+                    <li><a href="/about me">About Me</a></li>
                     <li><a href="/my videos">My Videos</a></li>
-                    <li><a href="/pics">Pictures</a></li>
+                    <li><a href="/pictures">Pictures</a></li>
                 </ul>
 
             </div>

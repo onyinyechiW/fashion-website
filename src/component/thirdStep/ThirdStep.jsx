@@ -5,7 +5,7 @@ const ThirdStep = () =>{
     return(
         <div className="Big-contain">
             <div className="Small-contain">
-                <p>With our sewing technique here sewing is made easy and fun too</p>
+                <p>With our sewing technique here sewing is made easy and interesting</p>
                 <div className="third-pics"><img src={Third_pics} alt="tpics"></img></div>
 
             </div>

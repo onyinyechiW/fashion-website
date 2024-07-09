@@ -3,7 +3,8 @@
     height: 700px;
     /* background-color: rgb(135, 96, 96); */
     /* background-color: rgb(238, 207, 196); */
-    background-color: rgb(232, 131, 94)
+    /* background-color: rgb(232, 131, 94) */
+    background-color: rgb(104, 93, 93);
     /* display: flex; */
 }
 .Small-contain{
@@ -21,5 +22,6 @@
     font-size: 32px;
     margin-left: 70px;
     margin-top: 130px;
+    color: white;
     /* text-align: start;   */
 }

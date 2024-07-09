@@ -1,4 +1,61 @@
-.Ab-main-contain img{
-    width: 96%;
-    height: 800px;
+.first-contain img{
+    width: 95%;
+    height: 870px;
+}
+.second-contain{
+    display: flex;
+    justify-content: center; 
+    /* background-color: aqua; */
+
+}
+.tailor-pics img{
+    width: 500px;
+    height: 700px;
+    margin-left: 200px;
+
+}
+.second-contain p{
+    width: 300px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.Social-MBtn  {
+  display: flex;
+  margin-top: 300px;
+  margin-right: 70px; 
+  /* justify-content: space-between; */
+}
+.third-contain{
+    display: flex;
+    justify-content: center;
+
+}
+.softw-pics img{
+    width: 730px;
+    height: 600px;
+    margin-right: 130px; 
+}
+.third-contain p{
+    width: 150px;
+    font-size: 25px; 
+    margin-top: 40px;
+}
+.third-contain button{
+    margin-top: 300px;
+    margin-right: 80px;
+}
+.fourth-contain{
+    display:flex;
+    justify-content: center;
+}
+.teach-pics img{
+    width: 400px;
+    height: 750px;
+    margin-left: 500px;
+}
+.fourth-contain p{
+    width: 300px;
+    font-size: 30px;
+    margin-top: 50px;
+
 }

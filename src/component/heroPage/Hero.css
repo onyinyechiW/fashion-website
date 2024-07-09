@@ -1,8 +1,10 @@
 .Main-contain{
-    width: 100%;
+    width: 98.5%;
     height: 700px;
-    /* background-color: rgb(135, 96, 96); */
-    background-color: rgb(232, 131, 94);
+    /* background-color: rgb(92, 71, 71); ash */
+    /* background-color: rgb(237, 209, 209) */
+    /* background-color: rgb(135, 96, 96);  */
+    background-color: rgb(232, 131, 94); 
     /* display: flex; */
 }
 .inner-contain{
@@ -12,12 +14,14 @@
 .my-hero img{
     width: 400px;
     height: 700px;
-    margin-left: 480px;
+    margin-left: 750px;
 }
 .inner-contain p{
     width: 300px;
     font-size: 30px; 
-    margin-left: 50px; 
+    margin-left: 20px; 
     margin-top: 80px;
+    color: white;
+    
     /* text-align: start; */
 }

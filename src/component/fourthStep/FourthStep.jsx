@@ -5,7 +5,7 @@ const FourthStep = () =>{
         <div className="Big-tank">
             <div className="small-tank">
                 <div className="fourth-image"><img src={My_image} alt="fourth"></img></div>
-                <p>Are you interested in learning how to sew ? even without prior
+                <p>Are you interested in learning how to sew ? even without no
                     knowleged of sewing, we have basic videos made easy for beginners 
                 </p>
                 <div className='Mvideo-Btn'> 

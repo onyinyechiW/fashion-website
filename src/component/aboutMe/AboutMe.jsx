@@ -1,6 +1,7 @@
 import About_pics from '../aboutMe/images/IMG_20200703_154824_544.jpg'
-import Tailor_pics from '../aboutMe/images/IMG_20210603_130722_076.jpg'
+import Tailor_pics from '../aboutMe/images/IMG_20200703_153959_548.jpg'
 import software_pics from '../aboutMe/images/IMG_20240618_163435_887.jpg'
+import Teach_pics from '../aboutMe/images/IMG_20210603_133459_277.jpg'
 import '../aboutMe/AboutMe.css'
 const AboutMe = () =>{
     return(
@@ -14,19 +15,33 @@ const AboutMe = () =>{
                 to picture out what i can imagine in my head,my mind 
                 then bring it to life.
               </p>
+              <div className='Social-MBtn'>
+              <div className='youtubeBtn'>
+                <button>Youtube</button>
+              </div>
+              <div className='instagramBtn'>
+                <button>instagram</button>
+              </div>
+              </div>
+              
               <div className='tailor-pics'><img src={Tailor_pics} alt='t-pics'></img></div>
-              <button className='yutbtn'>Youtube</button>
-              <button className='instgbtn'>instagram</button>
+             
             </div>
 
             <div className="third-contain">
               <div className="softw-pics"><img src={software_pics} alt='stf-pics'></img></div>
-              <p>I am a software engineer also,i can sew, teach and design</p>
-              <button className='linkdbtn'>Linkedin</button>
+              <p>I am a software engineer also, i can design, teach and sew</p>
+              <div className='linkedinBtn'>
+                <button>LinkedIn</button>
+                </div>
 
             </div>
 
-            <div className='fourth-contain'></div>
+            <div className='fourth-contain'>
+              <p>Teaching is part of what i love doing with the uniqueness in me 
+                and the knowledge i have it makes it easy for me to teach and make impact</p>
+                <div className='teach-pics'><img src={Teach_pics} alt='teach'></img></div>
+            </div>
         </div>
     )
 }

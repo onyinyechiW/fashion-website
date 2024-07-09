@@ -2,7 +2,8 @@
     /* background-color: rgb(226, 214, 214);  */
     /* background-color: rgb(240, 218, 177); */
     /* background-color: rgb(44, 44, 71); */
-    background-color: bisque;
+    /* background-color: bisque; */
+    background-color: rgb(218, 204, 204);
     width: 100%;
     height: 600px;
     /* display: flex; */
@@ -12,8 +13,8 @@
     width: 300px;
     height: 330px;
     border: solid 2px;
-    background-color: peru;
-    /* background-color:  rgb(232, 131, 94); */
+    /* background-color: peru; */
+    background-color:  rgb(186, 175, 171);
     margin-top: 130px;
     border-radius: 20px;
     border: none;
