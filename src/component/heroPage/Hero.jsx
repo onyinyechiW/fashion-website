@@ -8,6 +8,7 @@ const Hero = () =>{
                     fashion speaks, it tells who you are,fashion is all
                      about life itself,fashion is style.My fashion my style
                 </p>
+            
                 <div className="my-hero"><img src={Hero_pics} alt="hero"></img></div>
 
             </div>

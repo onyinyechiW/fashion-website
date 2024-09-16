@@ -4,8 +4,11 @@ const Navbar = () =>{
         <div className="max-contain">
             <div className="mini-contain">
                 <div className="my-logo">
-                    <h2><a href="/">Logo</a></h2>
-
+                    <h2>MWFS</h2>
+                    <p>Mrs Wilson Fashion School</p> 
+                    {/* <p>Stellonyin Fashion School</p>  */}
+                    <p></p>
+                
                 </div>
                 <ul>
                     <li><a href="/">Home</a></li>

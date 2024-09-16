@@ -3,17 +3,15 @@ import '../fourthStep/FourthStep.css'
 const FourthStep = () =>{
     return(
         <div className="Big-tank">
+          <div className="fourth-image"><img src={My_image} alt="fourth"></img></div>
+          
             <div className="small-tank">
-                <div className="fourth-image"><img src={My_image} alt="fourth"></img></div>
                 <p>Are you interested in learning how to sew ? even without no
                     knowleged of sewing, we have basic videos made easy for beginners 
                 </p>
-                <div className='Mvideo-Btn'> 
-                <button type="my-vdBtn">My Videos</button>
-                </div> 
-              
-
-
+                
+                <button className='Mvideo-Btn'>My Videos</button>
+                 
             </div>
 
         </div>

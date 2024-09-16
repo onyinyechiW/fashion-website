@@ -1,33 +1,42 @@
 .Big-tank{
-    background-color: bisque;
-    width: 100%;
-    height: 700px;
-}
-.small-tank{
     display: flex;
     justify-content: center;
+    background-color: bisque;
+    width: 100%;
+    height: 700px; 
+}
+.small-tank{
+    /* display: flex;
+    justify-content: center; */
 }
 .fourth-image img{
-    width: 300px;
-    height: 600px;
-    margin-right: 30px; 
-    
-    margin-top: 30px;
-}
+    width: 350px;
+    height: 650px;
+    margin-right: 70px; 
+    margin-top: 30px;  
+} 
 .small-tank p{
     width: 350px;
     font-size: 30px;
-    margin-top: 90px;
+    margin-top: 100px;
     margin-left: 350px; 
     /* text-align: start; */
 
     
 }
-.small-tank button{
+/* .small-tank button{
     margin-top: 500px;
-    margin-right: 100px;   
-}
-/* .Mvideo-Btn button{
-    margin-top: 500px;
-    margin-right: 100px;  
-} */
+    margin-right: 100px;    */
+/* } */
+ .Mvideo-Btn {
+   margin-left: 300px;
+   margin-top: 90px;
+   width: 120px;
+   height: 40px;
+   border-radius: 7px;
+   background-color: blue;
+   color: white;
+   border: none;
+   font-size: 15px;
+   
+}  
