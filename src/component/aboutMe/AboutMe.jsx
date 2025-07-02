@@ -3,15 +3,17 @@ import About_pics from '../aboutMe/images/IMG_20200703_154824_544.jpg'
 import Tailor_pics from '../aboutMe/images/IMG_20200703_153959_548.jpg'
 import software_pics from '../aboutMe/images/IMG_20240618_163435_887.jpg'
 import Teach_pics from '../aboutMe/images/IMG_20210603_133459_277.jpg'
+import FooterPage from "../footerPage/FooterPage"
 import '../aboutMe/AboutMe.css'
 const AboutMe = () =>{
     return(
       <>
       <Navbar/>
-        <div className="Ab-main-contain">
+        <div className="Abt-main-contain">
             <div className='first-contain'>
-              <div className="ab-pics"><img src={About_pics} alt="about-m"></img></div>
+              <div className="abt-pics"><img src={About_pics} alt="about-m"></img></div>
              <div className="text-box">
+             <h1>Mrs Wilson fashion school is a place to be</h1>
              <p>Come and Explore your potential here</p>
 
              </div>
@@ -19,10 +21,13 @@ const AboutMe = () =>{
 
             <div className="second-contain">
            <div className='header-textcont'>
-           <p>I love to draw alot,design is part of me
+            <div className="p_text">
+            <p>I love to draw alot,design is part of me
                 to picture out what i can imagine in my head,my mind 
                 then bring it to life.
               </p>
+            </div>
+           
               <div className='Social-MBtn'>
                 <button className='youtubeBtn'>Youtube</button>
                 <button className='instagramBtn'>instagram</button>
@@ -53,6 +58,7 @@ const AboutMe = () =>{
                 <div className='teach-pics'><img src={Teach_pics} alt='teach'></img></div>
             </div> 
         </div>
+        <FooterPage/>
         </>
     )
 }

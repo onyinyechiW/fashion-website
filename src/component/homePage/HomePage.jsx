@@ -6,7 +6,7 @@ import FourthStep from "../fourthStep/FourthStep"
 const HomePage = () =>{
     return(
         <>
-        <Navbar/>
+        <Navbar/> 
         <Hero/>
         <SecondStep/>
         <ThirdStep/>

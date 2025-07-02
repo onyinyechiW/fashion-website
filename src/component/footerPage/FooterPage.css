@@ -1,0 +1,26 @@
+.FooterP-contain{
+    display: grid;
+    /* background-color: rgb(44, 44, 200); */
+    background-color: black;
+    color: white;
+    grid-template-columns: auto auto auto;
+    height: 300px; 
+    column-gap: 20px; 
+    font-family: 'open sans';
+    font-size: 1.2rem; 
+    
+}.footer-Am{
+    padding: 46px;
+    width: 354px; 
+    height: fit-content;  
+    
+}.footer-Am p{
+    margin-left: 2px;
+    margin-top: 20px;
+    /* font-size: 1.1rem;  */
+    text-align: start; 
+  
+}
+.footer-Am h4{
+  text-align: start;
+}

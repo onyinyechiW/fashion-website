@@ -4,12 +4,14 @@ const Hero = () =>{
     return(
         <div className="Main-contain">
             <div className="inner-contain">
-                <p>Fashion is beautiful,fashion is creativity,
-                    fashion speaks, it tells who you are,fashion is all
+                <div className='my_text'>
+                  <p>Fashion is beautiful,fashion is creativity,
+                    fashion speaks,it tells who you are,fashion is all
                      about life itself,fashion is style.My fashion my style
-                </p>
-            
-                <div className="my-hero"><img src={Hero_pics} alt="hero"></img></div>
+                  </p>
+                </div>
+               
+             <div className="my-hero"><img src={Hero_pics} alt="hero"></img></div>
 
             </div>
         </div>

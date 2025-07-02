@@ -7,7 +7,7 @@ const SecondStep = () =>{
                 <div className="sd-boxes">
 
                     <div className="sdbox-1">
-                        <p>A talk with Madam Pat Doluchie couture</p>
+                        <p>A talk with Madam Pat Doluchie couture and a realtor</p>
                         <button><a href="/click">Click</a></button>
                     </div>
 
